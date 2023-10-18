@@ -65,6 +65,14 @@
     "chrono": "cpp",
     "compare": "cpp",
     "concepts": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "fstream": "cpp",
+    "functional": "cpp",
+    "filesystem": "cpp",
+    "__functional_base": "cpp",
+    "iomanip": "cpp",
+    "iterator": "cpp",
+    "list": "cpp",
+    "utility": "cpp"
   }
 }

@@ -1,4 +1,4 @@
-NAME = ex01
+NAME = PmergeMe
 SRCS = $(wildcard *.cpp)
 OBJS = ${SRCS:.cpp=.o}
 
