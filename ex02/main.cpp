@@ -31,7 +31,7 @@ int main(int argc, char **argv) {
 		std::cerr << e.what() << std::endl;
 		return 1;
 	}
-
+	
 	pm.sortVec(argc, argv);
 	pm.sortList(argc, argv);
 

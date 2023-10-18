@@ -6,6 +6,8 @@
 #include <vector>
 #include <sstream>
 #include <list>
+#include <ctime>
+#include <cstring>
 
 #define MS 1000000
 

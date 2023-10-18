@@ -24,7 +24,7 @@ static int ft_stoi(const std::string &str)
 
 const char *RPN::Error::what(void) const throw()
 {
-	return "ERROR";
+	return "Error";
 }
 
 bool RPN::isOperator(char op)

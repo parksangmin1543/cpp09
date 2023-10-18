@@ -2,12 +2,13 @@
 
 #include <iostream>
 #include <fstream>
+#include <sstream>
+#include <stdlib.h>
 #include <map>
 
 class BitcoinExchange
 {
 private:
-	// std::map<std::string, float> bitcoinData;
 	std::map<std::string, std::string> bitcoinData;
 	std::string filename;
 	std::string line;
@@ -38,6 +39,14 @@ public:
 			const char *what() const throw();
 	};
 	class BadNumbererrorException : std::exception{
+		public:
+			const char *what() const throw();
+	};
+	class BadPositiveerrorException : std::exception{
+		public:
+			const char *what() const throw();
+	};
+	class BadLargeerrorException : std::exception{
 		public:
 			const char *what() const throw();
 	};
